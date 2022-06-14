@@ -1,0 +1,33 @@
+.CreateNote-main {
+  width: 600px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  box-shadow: 0 0 5px black;
+  border: 2px solid yellow;
+}
+.CreateNote-main form {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  position: relative;
+}
+.CreateNote-main .MuiButton-root {
+  position: relative;
+  bottom: -20px;
+  margin-left: auto;
+  border-radius: 50%;
+  height: 50px;
+  background-color: rgb(251, 255, 213);
+  border: 1px solid yellow;
+  z-index: 999;
+}
+.CreateNote-main .input {
+  outline: none;
+}
+.CreateNote-main .MuiButton-root:hover {
+  background-color: rgb(252, 252, 137);
+}
+.CreateNote-icon {
+  color: black;
+}

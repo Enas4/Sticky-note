@@ -1,0 +1,14 @@
+.Header-header {
+  width: 100%;
+  background-color: rgb(5, 5, 5);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+}
+.Header-header h1 {
+  color: rgb(243, 21, 13);
+  text-shadow: 0 0 5px rgb(252, 252, 98);
+  text-transform: uppercase;
+}
